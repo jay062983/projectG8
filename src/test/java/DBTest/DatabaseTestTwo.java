@@ -4,7 +4,7 @@ import java.sql.*;
 
 public class DatabaseTestTwo {
     public static void main(String[] args) {
-        String url = "jdbc:mysql://3.239.253.255:3306/syntaxhrm_mysql"; //java data base connect "jdbc" and address
+        String url = "jdbc:mysql://3.239.253.255:3306/syntaxhrm_mysql"; //java data base connect "jdbc" and address/name of db
         String username = "syntax_hrm";
         String password = "syntaxhrm123";
         try {

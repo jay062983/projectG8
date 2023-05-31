@@ -42,7 +42,10 @@ public class AddEmployeePage extends CommonMethods {
    public WebElement statusDropdown;
 
     @FindBy(xpath = "//input[@id='btnSave']")
+
    public WebElement saveBtn;
+    @FindBy(id="employeeId")
+    public WebElement empIdLocator;
 
     public AddEmployeePage(){
         PageFactory.initElements(driver, this);
